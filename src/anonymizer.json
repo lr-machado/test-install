@@ -1,0 +1,10 @@
+[
+  {
+    "name": "client",
+    "fake_type": "company"
+  },
+  {
+    "name": "provider",
+    "fake_type": "name"
+  }
+]
