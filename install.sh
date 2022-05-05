@@ -152,7 +152,7 @@ install_lite_from_git() {
         }
         else
         # Cloning repo
-        command git clone -b lmachado/feat/bash-lite-extractor "$(lite_source)" --depth=1 "${INSTALL_DIR}" || {
+        command git clone "$(lite_source)" --depth=1 "${INSTALL_DIR}" || {
             lite_echo >&2 'Failed to clone lite repo. Please report this!'
             exit 2
         }
