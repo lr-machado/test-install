@@ -92,7 +92,7 @@ lite_install_dir() {
 
 lite_source() {
     local LITE_GITHUB_REPO
-    LITE_GITHUB_REPO="gistia/revcycle-lite-extractor"
+    LITE_GITHUB_REPO="lr-machado/test-install"
     LITE_SOURCE_URL="https://github.com/${LITE_GITHUB_REPO}.git"
     lite_echo "$LITE_SOURCE_URL"
 }
